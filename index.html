@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <h2>PORTFOLIO.</h2>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div id="home" class="detail">
+        <h1><span>Hello! </span> I'm Farhan Asif</h1>
+        <p id="detail-para">
+          Welcome to my portfolio showcasing my web development expertise.
+        </p>
+        <a href="farhan-resume.pdf" class="cta-btn" download>DOWNLOAD CV</a>
+      </div>
+    </div>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        Hello, I'm Farhan Asif, a Computer Science student at the University of
+        Central Punjab. I have a passion for web development and have acquired
+        skills in HTML, CSS, and JavaScript. My journey in web development led
+        me to explore the React framework, where I've gained hands-on experience
+        in building dynamic and interactive user interfaces. As a student, I am
+        enthusiastic about learning and applying my knowledge to real-world
+        projects. I enjoy the process of creating visually appealing and
+        functional websites. Whether it's crafting the structure with HTML,
+        styling with CSS, adding interactivity with JavaScript, or building
+        modern web applications with React, I am committed to continuous growth
+        in the ever-evolving field of technology. This portfolio is a showcase
+        of my skills, projects, and experiences in the world of web development.
+        Feel free to explore and get in touch if you have any questions or
+        opportunities for collaboration!
+      </p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Services</h2>
+
+      <div class="project-imgs">
+        <div class="service-card">
+          <h2>Web Development</h2>
+          <img class="img1" src="htmlcssjs.png" />
+          <p>
+            As a versatile web developer, I bring a comprehensive skill set in
+            HTML, CSS, and JavaScript, enabling me to create visually appealing
+            and highly functional websites.
+          </p>
+        </div>
+        <div class="service-card">
+          <h2>React Framework</h2>
+          <img class="img2" src="noreact.png" />
+          <p>
+            As a dedicated React developer, I bring a wealth of experience in
+            building dynamic and interactive user interfaces. My proficiency in
+            React, combined with a strong foundation in web development
+            technologies, allows me to create seamless and responsive
+            applications that enhance the user experience.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h2>UI/UX</h2>
+          <p id="service-p">
+            As a skilled graphic designer, I bring creativity and expertise in
+            visual communication to the table. With a keen eye for design, I
+            have successfully crafted compelling visuals that not only meet but
+            exceed client expectations.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <p id="projects-p">Explore some of my featured projects below.</p>
+      <div class="project-imgs">
+        <div class="project-card">
+          <img class="img-with-shadow" src="Movieland.png" alt="Project 1" />
+          <h3>Project 1</h3>
+          <p>MovieLand is a movie searcher.</p>
+        </div>
+        <div class="project-card">
+          <img class="img-with-shadow" src="loginpage.png" alt="Project 2" />
+          <h3>Project 2</h3>
+          <p>Simple Login Page</p>
+        </div>
+        <div class="project-card">
+          <img class="img-with-shadow" src="harrypage.png" alt="Project 3" />
+          <h3>Project 3</h3>
+          <p>School website.</p>
+        </div>
+      </div>
+    </section>
+    <form action="connect.php" class="contact-form" method="post"></form>
+
+    <section id="contact" class="contact-and-info">
+      <div class="contact-form">
+        <h2>Contact Me</h2>
+        <p>
+          Interested in working together or have any questions? Feel free to
+          reach out!
+        </p>
+        <form action="#" method="post" id="contactForm">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button id="send-msg" type="submit" class="cta-btn">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+      <div class="personal-info">
+        <h2>Personal Information</h2>
+        <p>Farhan Asif</p>
+        <p>khawajafarhan010@gmail.com</p>
+        <p>03334702237</p>
+        <p>Lahore , Pakistan.</p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
